@@ -1,0 +1,125 @@
+@import "../../../assets/colors/colors.scss";
+
+.bannerList {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span {
+      font-size: 16px;
+      font-weight: 600;
+      color: $text-primary-color;
+      margin: 0 0 24px 24px;
+    }
+  }
+  .filter {
+    margin-right: 24px;
+    margin-bottom: 24px;
+    select {
+      padding: 14px;
+      border: 0.1px solid #bebebe;
+      border-radius: 6px;
+      transition: 0.3s;
+      outline: none;
+      color: $text-primary-color;
+    }
+  }
+  .approved {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    height: 28px;
+    background-color: $status-green-background;
+    border-radius: 20px;
+    .title {
+      span {
+        color: $status-green-color;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0px;
+      }
+    }
+  }
+  .rejected {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    height: 28px;
+    background-color: $status-red-background;
+    border-radius: 20px;
+    .title {
+      span {
+        color: $status-red-color;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0px;
+      }
+    }
+  }
+  .none {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    height: 28px;
+    background-color: $status-none-background;
+    border-radius: 20px;
+    .title {
+      span {
+        color: $status-none-color;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0px;
+      }
+    }
+  }
+
+  .moreDetails {
+    .more-align {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      .more-icon {
+        color: $text-secondary-color;
+      }
+    }
+
+    .detail {
+      position: absolute;
+      .options {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: $secondary-color;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+          rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        position: relative;
+        top: -34px;
+        right: 120px;
+        z-index: 9;
+
+        .icon {
+          width: 18px;
+          height: 18px;
+          color: $text-secondary-color;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+    img {
+      width: 150px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+  .css-j204z7-MuiFormControlLabel-root {
+    margin: 0px !important;
+  }
+}

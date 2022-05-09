@@ -1,0 +1,96 @@
+@import "../../assets/colors/colors.scss";
+
+.table-container {
+  background-color: $secondary-color;
+  box-shadow: $box-shadow;
+  border-radius: 0.5rem;
+  margin: 24px 0px;
+  padding: 24px 0 24px 0;
+
+  .table {
+    .more {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+      width: 150px;
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 10px;
+      border: 1px solid $primary-color;
+      cursor: pointer;
+      .title {
+        font-size: 14px;
+        margin: 0;
+        font-weight: 600;
+        color: $primary-color;
+      }
+      .icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        color: $primary-color !important;
+      }
+      &:hover {
+        background-color: $primary-color;
+        .title {
+          color: $secondary-color;
+        }
+        .icon {
+          color: $secondary-color !important;
+        }
+      }
+    }
+  }
+}
+
+.css-1d97e6z-MuiDataGrid-root {
+  border: none !important;
+}
+
+.css-1d97e6z-MuiDataGrid-root .MuiDataGrid-iconSeparator {
+  color: $background-color !important;
+}
+.css-svmzg5 .MuiDataGrid-columnSeparator {
+  color: transparent !important;
+}
+
+.css-okt5j6-MuiDataGrid-columnHeaders {
+  background-color: $background-color;
+}
+.css-um056b {
+  background-color: $background-color;
+}
+.css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+  color: $text-secondary-color;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.css-1d97e6z-MuiDataGrid-root .MuiDataGrid-cell--textCenter {
+  color: $text-value-color;
+}
+
+.css-1d97e6z-MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.css-1d97e6z-MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: solid transparent 1px !important;
+}
+
+.css-1d97e6z-MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within,
+.css-1d97e6z-MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: solid transparent 0px !important;
+  outline-width: 1px;
+  outline-offset: -1px;
+}
+
+.css-svmzg5 .MuiDataGrid-columnHeader:focus,
+.css-svmzg5 .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+
+.css-svmzg5 {
+  border: none !important;
+}
+
+.css-um056b {
+  width: 100%;
+}

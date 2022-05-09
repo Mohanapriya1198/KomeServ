@@ -1,0 +1,56 @@
+@import "../../../../assets/colors/colors.scss";
+
+.scheduleView {
+  margin: 24px auto;
+  .main-title {
+    display: flex;
+    align-items: center;
+    width: 768px;
+    margin: auto;
+    margin-bottom: 24px;
+    span {
+      font-size: 24px;
+      font-weight: 600;
+      color: $text-primary-color;
+    }
+    .back-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 16px;
+      color: $text-primary-color !important;
+      cursor: pointer;
+    }
+  }
+  .item {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    .title {
+      display: flex;
+      align-items: center;
+      margin: 0px;
+      span {
+        font-size: 16px;
+        font-weight: 500;
+        color: $text-primary-color;
+      }
+
+      .icon {
+        width: 9px;
+        height: 9px;
+        margin-right: 10px;
+        color: $primary-color !important;
+      }
+    }
+    .value {
+      width: 200px;
+      span {
+        text-align: start;
+        font-size: 15px;
+        color: $text-secondary-color;
+      }
+    }
+  }
+}

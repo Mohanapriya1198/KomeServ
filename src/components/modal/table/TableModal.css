@@ -1,0 +1,155 @@
+.table-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999999999;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 0.5rem;
+  padding: 24px 0 24px 0;
+  height: 80vh;
+  width: 90%;
+}
+
+.table-modal .table {
+  height: 73vh;
+}
+
+.table-modal .table .align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.table-modal .table .align .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1c23;
+  line-height: 1.375;
+  margin-left: 24px;
+}
+
+.table-modal .table .align .title .icon {
+  color: #1a1c23 !important;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.table-modal .table .align .inner-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.table-modal .table .align .inner-align .filter {
+  margin-right: 24px;
+}
+
+.table-modal .table .align .inner-align .filter select {
+  padding: 14px;
+  border: 0.1px solid #bebebe;
+  border-radius: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  color: #1a1c23;
+}
+
+.table-modal .table .align .inner-align .button-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table-modal .table .align .inner-align .button-align .pdf-Btn {
+  margin: 0px 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #7e3af2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-modal .table .align .inner-align .button-align .xl-Btn {
+  margin: 0px 20px 0px 0px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #7e3af2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-modal .css-30pzqk-MuiDataGrid-root {
+  border: none;
+}
+
+.table-modal .css-okt5j6-MuiDataGrid-columnHeaders {
+  background-color: #f4f5f7;
+}
+
+.table-modal .css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+  color: #707275;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.table-modal .css-30pzqk-MuiDataGrid-root .MuiDataGrid-cell--textCenter {
+  color: #24262d;
+}
+
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-row:hover {
+  background-color: transparent !important;
+}
+
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-iconSeparator {
+  color: transparent !important;
+}
+
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-cell:focus,
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within,
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input:hover {
+  border: none !important;
+  outline: none !important;
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important;
+  border-radius: 5px;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-size: 14px !important;
+  color: #1a1c23 !important;
+}
+/*# sourceMappingURL=TableModal.css.map */

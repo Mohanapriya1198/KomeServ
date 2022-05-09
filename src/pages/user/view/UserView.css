@@ -1,0 +1,208 @@
+.user-view {
+  margin: 24px auto;
+}
+
+.user-view .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 768px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.user-view .main-title span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1c23;
+}
+
+.user-view .main-title .back-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  color: #1a1c23 !important;
+  cursor: pointer;
+}
+
+.user-view .sub-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+.user-view .sub-title span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1c23;
+}
+
+.user-view .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-view .grid .img-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 384px;
+}
+
+.user-view .grid .img-item img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.user-view .grid .items {
+  width: 100%;
+}
+
+.user-view .grid .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.user-view .grid .items .item .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+}
+
+.user-view .grid .items .item .title span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1c23;
+}
+
+.user-view .grid .items .item .title .icon {
+  width: 9px;
+  height: 9px;
+  margin-right: 10px;
+  color: #7e3af2 !important;
+}
+
+.user-view .grid .items .item .value {
+  width: 200px;
+}
+
+.user-view .grid .items .item .value span {
+  text-align: start;
+  font-size: 15px;
+  color: #707275;
+}
+
+.user-view .grid .items .doc-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+}
+
+.user-view .grid .items .doc-item img {
+  width: 350px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user-view .grid .items .doc-item-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+}
+
+.user-view .grid .items .doc-item-service img {
+  width: 300px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.user-view .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.user-view .action .approvedBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 30px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #f4f5f7;
+  background-color: #0e9f6e;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.user-view .action .rejectedBtn {
+  margin-right: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 30px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #f4f5f7;
+  background-color: #c81e1e;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=UserView.css.map */

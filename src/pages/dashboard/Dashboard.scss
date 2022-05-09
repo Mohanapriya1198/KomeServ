@@ -1,0 +1,83 @@
+@import "../../assets/colors/colors.scss";
+
+.dashboard {
+  height: calc(100vh - 68px);
+  overflow: auto;
+  .header {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+    .card {
+      height: 60px;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background-color: $secondary-color;
+      box-shadow: $box-shadow;
+      display: flex;
+      align-items: center;
+      .icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #feecdc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ff5a1f;
+      }
+      .com-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #def7ec;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0e9f6e;
+      }
+      .failed-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #fde8e8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #c81e1e;
+      }
+    }
+    .info {
+      margin-left: 20px;
+
+      .title {
+        margin-bottom: 12px;
+        font-size: 14px;
+        color: $text-primary-color;
+      }
+      .value {
+        font-size: 18px;
+        font-weight: 500;
+        color: $text-primary-color;
+      }
+    }
+  }
+  .table-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: $text-primary-color;
+    margin: 0 0 24px 24px;
+  }
+}
+
+@media (max-width: 817px) {
+  .dashboard {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr;
+      .card {
+        margin-right: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,208 @@
+.profile-view {
+  margin: 24px auto;
+}
+
+.profile-view .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 768px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.profile-view .main-title span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1c23;
+}
+
+.profile-view .main-title .back-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  color: #1a1c23 !important;
+  cursor: pointer;
+}
+
+.profile-view .sub-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+.profile-view .sub-title span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1c23;
+}
+
+.profile-view .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-view .grid .img-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 384px;
+}
+
+.profile-view .grid .img-item img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.profile-view .grid .items {
+  width: 100%;
+}
+
+.profile-view .grid .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.profile-view .grid .items .item .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+}
+
+.profile-view .grid .items .item .title span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1c23;
+}
+
+.profile-view .grid .items .item .title .icon {
+  width: 9px;
+  height: 9px;
+  margin-right: 10px;
+  color: #7e3af2 !important;
+}
+
+.profile-view .grid .items .item .value {
+  width: 200px;
+}
+
+.profile-view .grid .items .item .value span {
+  text-align: start;
+  font-size: 15px;
+  color: #707275;
+}
+
+.profile-view .grid .items .doc-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+}
+
+.profile-view .grid .items .doc-item img {
+  width: 350px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile-view .grid .items .doc-item-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+}
+
+.profile-view .grid .items .doc-item-service img {
+  width: 300px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.profile-view .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.profile-view .action .approvedBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 30px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #f4f5f7;
+  background-color: #0e9f6e;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.profile-view .action .rejectedBtn {
+  margin-right: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 30px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #f4f5f7;
+  background-color: #c81e1e;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Profile.css.map */

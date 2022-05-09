@@ -1,0 +1,8 @@
+@import "../../assets/colors/colors.scss";
+
+.card {
+  box-shadow: $box-shadow;
+  padding: 24px;
+  border-radius: 0.5rem;
+  background-color: $secondary-color;
+}

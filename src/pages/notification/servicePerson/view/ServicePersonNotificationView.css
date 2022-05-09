@@ -1,0 +1,77 @@
+.servicePersonNotificationView {
+  margin: 24px auto;
+}
+
+.servicePersonNotificationView .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 768px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.servicePersonNotificationView .main-title span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1c23;
+}
+
+.servicePersonNotificationView .main-title .back-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  color: #1a1c23 !important;
+  cursor: pointer;
+}
+
+.servicePersonNotificationView .item {
+  padding: 0px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.servicePersonNotificationView .item .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+}
+
+.servicePersonNotificationView .item .title span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1c23;
+}
+
+.servicePersonNotificationView .item .title .icon {
+  width: 9px;
+  height: 9px;
+  margin-right: 10px;
+  color: #7e3af2 !important;
+}
+
+.servicePersonNotificationView .item .value {
+  width: 200px;
+}
+
+.servicePersonNotificationView .item .value span {
+  text-align: start;
+  font-size: 15px;
+  color: #707275;
+}
+/*# sourceMappingURL=ServicePersonNotificationView.css.map */

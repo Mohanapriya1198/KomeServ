@@ -1,0 +1,162 @@
+.bannerList .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bannerList .title span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1c23;
+  margin: 0 0 24px 24px;
+}
+
+.bannerList .filter {
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.bannerList .filter select {
+  padding: 14px;
+  border: 0.1px solid #bebebe;
+  border-radius: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  color: #1a1c23;
+}
+
+.bannerList .approved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 20px;
+  height: 28px;
+  background-color: #def7ec;
+  border-radius: 20px;
+}
+
+.bannerList .approved .title span {
+  color: #0e9f6e;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.bannerList .rejected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 20px;
+  height: 28px;
+  background-color: #fde8e8;
+  border-radius: 20px;
+}
+
+.bannerList .rejected .title span {
+  color: #c81e1e;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.bannerList .none {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 20px;
+  height: 28px;
+  background-color: #feecdc;
+  border-radius: 20px;
+}
+
+.bannerList .none .title span {
+  color: #ff5a1f;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.bannerList .moreDetails .more-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.bannerList .moreDetails .more-align .more-icon {
+  color: #707275;
+}
+
+.bannerList .moreDetails .detail {
+  position: absolute;
+}
+
+.bannerList .moreDetails .detail .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  position: relative;
+  top: -34px;
+  right: 120px;
+  z-index: 9;
+}
+
+.bannerList .moreDetails .detail .options .icon {
+  width: 18px;
+  height: 18px;
+  color: #707275;
+}
+
+.bannerList .moreDetails .detail .options .icon:hover {
+  color: #7e3af2;
+}
+
+.bannerList .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerList .banner img {
+  width: 150px;
+  height: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.bannerList .css-j204z7-MuiFormControlLabel-root {
+  margin: 0px !important;
+}
+/*# sourceMappingURL=BannerList.css.map */

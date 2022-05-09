@@ -1,0 +1,163 @@
+.allOrder .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.allOrder .title span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1c23;
+  margin: 0 0 24px 24px;
+}
+
+.allOrder .filter {
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.allOrder .filter select {
+  padding: 14px;
+  border: 0.1px solid #bebebe;
+  border-radius: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  color: #1a1c23;
+}
+
+.allOrder .approved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 20px;
+  height: 28px;
+  background-color: #def7ec;
+  border-radius: 20px;
+}
+
+.allOrder .approved .title span {
+  color: #0e9f6e;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.allOrder .rejected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 20px;
+  height: 28px;
+  background-color: #fde8e8;
+  border-radius: 20px;
+}
+
+.allOrder .rejected .title span {
+  color: #c81e1e;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.allOrder .none {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 20px;
+  height: 28px;
+  background-color: #feecdc;
+  border-radius: 20px;
+}
+
+.allOrder .none .title span {
+  color: #ff5a1f;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.allOrder .moreDetails .more-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.allOrder .moreDetails .more-align .more-icon {
+  color: #707275;
+}
+
+.allOrder .moreDetails .detail {
+  position: absolute;
+}
+
+.allOrder .moreDetails .detail .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  position: relative;
+  top: -34px;
+  right: 120px;
+  z-index: 9;
+}
+
+.allOrder .moreDetails .detail .options .icon {
+  width: 18px;
+  height: 18px;
+  color: #707275;
+}
+
+.allOrder .moreDetails .detail .options .icon:hover {
+  color: #7e3af2;
+}
+
+.view-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #1a1c23;
+  border: none;
+  cursor: pointer;
+}
+
+.view-icon {
+  width: 15px !important;
+  height: 15px !important;
+  margin-right: 6px;
+  color: #707275;
+}
+/*# sourceMappingURL=AllOrder.css.map */

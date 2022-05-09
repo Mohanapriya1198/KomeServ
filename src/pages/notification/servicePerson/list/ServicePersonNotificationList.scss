@@ -1,0 +1,51 @@
+@import "../../../../assets/colors/colors.scss";
+
+.servicePersonNotificationList {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span {
+      font-size: 16px;
+      font-weight: 600;
+      color: $text-primary-color;
+      margin: 0 0 24px 24px;
+    }
+  }
+
+  .moreDetails {
+    .more-align {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      .more-icon {
+        color: $text-secondary-color;
+      }
+    }
+    .detail {
+      position: absolute;
+      .options {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: $secondary-color;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+          rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        position: relative;
+        top: -34px;
+        right: 80px;
+        z-index: 9;
+
+        .icon {
+          width: 18px;
+          height: 18px;
+          color: $text-secondary-color;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

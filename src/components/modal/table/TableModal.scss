@@ -1,0 +1,123 @@
+@import "../../../assets/colors/colors.scss";
+
+.table-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+  background-color: $secondary-color;
+  box-shadow: $box-shadow;
+  border-radius: 0.5rem;
+  padding: 24px 0 24px 0;
+  height: 80vh;
+  width: 90%;
+  .table {
+    height: 73vh;
+    .align {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      .title {
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        font-weight: 600;
+        color: $text-primary-color;
+        line-height: 1.375;
+        margin-left: 24px;
+        .icon {
+          color: $text-primary-color !important;
+          margin-right: 14px;
+          cursor: pointer;
+        }
+      }
+      .inner-align {
+        display: flex;
+        .filter {
+          margin-right: 24px;
+          select {
+            padding: 14px;
+            border: 0.1px solid #bebebe;
+            border-radius: 6px;
+            transition: 0.3s;
+            outline: none;
+            color: $text-primary-color;
+          }
+        }
+        .button-align {
+          display: flex;
+          align-items: center;
+          .pdf-Btn {
+            margin: 0px 20px;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            color: $secondary-color;
+            background-color: $primary-color;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          .xl-Btn {
+            margin: 0px 20px 0px 0px;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            color: $secondary-color;
+            background-color: $primary-color;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .css-30pzqk-MuiDataGrid-root {
+    border: none;
+  }
+  .css-okt5j6-MuiDataGrid-columnHeaders {
+    background-color: $background-color;
+  }
+  .css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+    color: $text-secondary-color;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .css-30pzqk-MuiDataGrid-root .MuiDataGrid-cell--textCenter {
+    color: $text-value-color;
+  }
+}
+
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-row:hover {
+  background-color: transparent !important;
+}
+
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-iconSeparator {
+  color: transparent !important;
+}
+
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-cell:focus,
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within,
+.css-30pzqk-MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input:hover {
+  border: none !important;
+  outline: none !important;
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important;
+  border-radius: 5px;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-size: 14px !important;
+  color: $text-primary-color !important;
+}

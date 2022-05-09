@@ -1,0 +1,137 @@
+@import "../../../assets/colors/colors.scss";
+
+.user-view {
+  margin: 24px auto;
+  .main-title {
+    display: flex;
+    align-items: center;
+    width: 768px;
+    margin: auto;
+    margin-bottom: 24px;
+    span {
+      font-size: 24px;
+      font-weight: 600;
+      color: $text-primary-color;
+    }
+    .back-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 16px;
+      color: $text-primary-color !important;
+      cursor: pointer;
+    }
+  }
+  .sub-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    span {
+      font-size: 20px;
+      font-weight: 600;
+      color: $text-primary-color;
+    }
+  }
+  .grid {
+    display: flex;
+    align-items: center;
+    .img-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 384px;
+      img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+    .items {
+      width: 100%;
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .title {
+          display: flex;
+          align-items: center;
+          margin: 0px;
+          span {
+            font-size: 16px;
+            font-weight: 500;
+            color: $text-primary-color;
+          }
+
+          .icon {
+            width: 9px;
+            height: 9px;
+            margin-right: 10px;
+            color: $primary-color !important;
+          }
+        }
+        .value {
+          width: 200px;
+          span {
+            text-align: start;
+            font-size: 15px;
+            color: $text-secondary-color;
+          }
+        }
+      }
+      .doc-item {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        img {
+          width: 350px;
+          height: 200px;
+          object-fit: cover;
+        }
+      }
+      .doc-item-service {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        img {
+          width: 300px;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  .action {
+    display: flex;
+    margin-left: auto;
+    .approvedBtn {
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 10px 30px;
+      height: 100%;
+      font-size: 15px;
+      font-weight: 600;
+      color: $background-color;
+      background-color: $status-green-color;
+      border: none;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+    .rejectedBtn {
+      margin-right: 24px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 10px 30px;
+      height: 100%;
+      font-size: 15px;
+      font-weight: 600;
+      color: $background-color;
+      background-color: $status-red-color;
+      border: none;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+  }
+}

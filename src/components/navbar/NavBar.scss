@@ -1,0 +1,101 @@
+@import "../../assets/colors/colors.scss";
+.navbar {
+  position: sticky !important;
+  z-index: 999;
+  top: 0px;
+  background-color: $secondary-color !important;
+  padding: 10px 0px;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2) !important;
+
+  .main {
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    .menu {
+      display: none;
+      .menuIcon {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .icons {
+    margin-left: auto;
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+    .moreIcon {
+      display: none;
+    }
+  }
+}
+
+.moreInfo {
+  position: absolute;
+  z-index: 999999;
+  top: 60px;
+  right: 30px;
+  border-radius: 6px;
+  padding: 20px;
+  width: 110px !important;
+  background-color: $secondary-color;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+  .viewProfile {
+    .name {
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: $text-primary-color;
+    }
+    .view {
+      font-size: 13px;
+      cursor: pointer;
+      color: $text-secondary-color;
+      margin-bottom: 14px;
+    }
+  }
+  .editProfile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: $text-secondary-color;
+    &:hover {
+      color: $primary-color;
+    }
+    .editicon {
+      width: 23px;
+      height: 23px;
+    }
+
+    .editlabel {
+      font-weight: 500;
+      margin-bottom: 4px;
+      margin-top: 7px;
+      margin-left: 8px;
+    }
+  }
+  .logout {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: $text-secondary-color;
+    &:hover {
+      color: $primary-color;
+    }
+    .icon {
+      width: 22px;
+      height: 22px;
+    }
+    .label {
+      font-weight: 500;
+      margin-bottom: 4px;
+      margin-left: 8px;
+    }
+  }
+}

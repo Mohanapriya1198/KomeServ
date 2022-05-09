@@ -1,0 +1,66 @@
+.userNotificationList .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.userNotificationList .title span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1c23;
+  margin: 0 0 24px 24px;
+}
+
+.userNotificationList .moreDetails .more-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.userNotificationList .moreDetails .more-align .more-icon {
+  color: #707275;
+}
+
+.userNotificationList .moreDetails .detail {
+  position: absolute;
+}
+
+.userNotificationList .moreDetails .detail .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  position: relative;
+  top: -34px;
+  right: 80px;
+  z-index: 9;
+}
+
+.userNotificationList .moreDetails .detail .options .icon {
+  width: 18px;
+  height: 18px;
+  color: #707275;
+}
+
+.userNotificationList .moreDetails .detail .options .icon:hover {
+  color: #7e3af2;
+}
+/*# sourceMappingURL=UserNotificationList.css.map */

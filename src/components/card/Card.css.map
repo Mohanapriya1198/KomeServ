@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACJ,UAAU,ECYC,mBAAmB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG;EDX9C,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,MAAM;EACrB,gBAAgB,ECLA,OAAO;CDMxB",
+    "sources": [
+        "Card.scss",
+        "../../assets/colors/colors.scss"
+    ],
+    "names": [],
+    "file": "Card.css"
+}

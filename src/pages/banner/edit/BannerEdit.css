@@ -1,0 +1,219 @@
+.banner-edit {
+  margin: 24px auto;
+}
+
+.banner-edit .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 768px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.banner-edit .title span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1c23;
+}
+
+.banner-edit .title .back-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  color: #1a1c23 !important;
+  cursor: pointer;
+}
+
+.banner-edit .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-edit .form .banner-item {
+  margin-right: 24px;
+}
+
+.banner-edit .form .banner-item img {
+  width: 250px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.banner-edit .form .banner-item .icon .label-icon {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-edit .form .banner-item .icon .label-icon .add {
+  position: absolute;
+  top: -20px;
+  right: -140px;
+  width: 32px;
+  height: 32px;
+  background-color: #7e3af2;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.banner-edit .form .banner-item .icon .label-icon .add .icon {
+  color: #ffffff;
+}
+
+.banner-edit .form .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.banner-edit .form .item .form-label {
+  color: #212529;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.banner-edit .form .item .upload {
+  width: 85px;
+  padding: 0.7rem 1rem;
+  background-color: #f4f5f7;
+  color: #707275;
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+  border-top: 1px solid #bebebe;
+  border-bottom: 1px solid #bebebe;
+  border-right: 1px solid #bebebe;
+  border-left: 1px solid #bebebe;
+  position: relative;
+  top: 41px;
+  left: 253px;
+  cursor: pointer;
+  margin-top: -40px;
+  font-size: 14px;
+}
+
+.banner-edit .form .item .select {
+  width: 372px;
+  padding: 0.2rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 40.5px;
+  outline: none;
+}
+
+.banner-edit .form .item .select:focus {
+  border: 1px solid #7e3af2;
+}
+
+.banner-edit .form .item .error-select {
+  width: 372px;
+  padding: 0.2rem 1rem;
+  border: 1px solid #dc3545;
+  border-radius: 0.375rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+}
+
+.banner-edit .form .item .invalid-msg {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #dc3545;
+}
+
+.banner-edit .form .item .form-control {
+  width: 338px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.375rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.banner-edit .form .item .form-control:focus {
+  border: 0.1px solid #7e3af2;
+}
+
+.banner-edit .form .item .invalid-form-control {
+  width: 338px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #707275;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #dc3545;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.375rem;
+}
+
+.banner-edit .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.banner-edit .action .activeBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 30px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #7e3af2;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=BannerEdit.css.map */

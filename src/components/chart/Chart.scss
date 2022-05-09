@@ -1,0 +1,16 @@
+@import "../../assets/colors/colors.scss";
+
+.chart {
+  border-radius: 0.5rem;
+  background-color: $secondary-color;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 24px;
+  margin: 24px 0;
+  .chartTitle {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: $text-primary-color;
+    margin-bottom: 16px;
+  }
+}

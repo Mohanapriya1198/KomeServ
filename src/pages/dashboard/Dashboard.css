@@ -1,0 +1,115 @@
+.dashboard {
+  height: calc(100vh - 68px);
+  overflow: auto;
+}
+
+.dashboard .header {
+  margin-top: 24px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+}
+
+.dashboard .header .card {
+  height: 60px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard .header .card .icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #feecdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ff5a1f;
+}
+
+.dashboard .header .card .com-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #def7ec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #0e9f6e;
+}
+
+.dashboard .header .card .failed-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fde8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #c81e1e;
+}
+
+.dashboard .header .info {
+  margin-left: 20px;
+}
+
+.dashboard .header .info .title {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #1a1c23;
+}
+
+.dashboard .header .info .value {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a1c23;
+}
+
+.dashboard .table-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1c23;
+  margin: 0 0 24px 24px;
+}
+
+@media (max-width: 817px) {
+  .dashboard .header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .dashboard .header .card {
+    margin-right: 0px;
+  }
+}
+/*# sourceMappingURL=Dashboard.css.map */
